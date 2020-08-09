@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rhtaylor/showcase/static/css/main.5f361e03.chunk.css",
+    "main.js": "/rhtaylor/showcase/static/js/main.596f0cc4.chunk.js",
+    "main.js.map": "/rhtaylor/showcase/static/js/main.596f0cc4.chunk.js.map",
+    "runtime-main.js": "/rhtaylor/showcase/static/js/runtime-main.3d7af996.js",
+    "runtime-main.js.map": "/rhtaylor/showcase/static/js/runtime-main.3d7af996.js.map",
+    "static/js/2.1110ce4c.chunk.js": "/rhtaylor/showcase/static/js/2.1110ce4c.chunk.js",
+    "static/js/2.1110ce4c.chunk.js.map": "/rhtaylor/showcase/static/js/2.1110ce4c.chunk.js.map",
+    "index.html": "/rhtaylor/showcase/index.html",
+    "precache-manifest.6771cc50d2d9335abc0eba271106d074.js": "/rhtaylor/showcase/precache-manifest.6771cc50d2d9335abc0eba271106d074.js",
+    "service-worker.js": "/rhtaylor/showcase/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/rhtaylor/showcase/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.1110ce4c.chunk.js.LICENSE.txt": "/rhtaylor/showcase/static/js/2.1110ce4c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/rhtaylor/showcase/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d7af996.js",
+    "static/js/2.1110ce4c.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.596f0cc4.chunk.js"
+  ]
+}
