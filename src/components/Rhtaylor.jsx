@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {iconfinder_medium_3721675.png} from '../css/iconfinder_medium_3721675'
 export default class Rhtaylor extends Component{
     render(){ 
         debugger

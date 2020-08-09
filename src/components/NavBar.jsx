@@ -35,13 +35,13 @@ export default class NavBar extends Component{
                 }}
             >About Author</NavLink>
             <NavLink
-                to="/login"
+                to="/Portfolio"
                 exact
                 style={link}
                 activeStyle={{
                     background: 'darkblue'
                 }}
-            >Login</NavLink>
+            >Portfolio</NavLink>
         </div>)
     }
 }
