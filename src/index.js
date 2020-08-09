@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <Router basename={process.env.PUBLIC_URL}>
     <Route path="/" component={App} />
-    <Route exact path="/Rhtaylor" render={(...routerProps)=> <Rhtaylor {...routerProps} />} />
+    <Route exact path="/showcase/Rhtaylor" render={(...routerProps)=> <Rhtaylor {...routerProps} />} />
   </Router>,
   document.getElementById('root')
 );
