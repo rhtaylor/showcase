@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App'; 
+import App from './App';  
+import Rhtaylor from '../components/Rhtaylor'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Router>
-    <Route path="/" component={<App />} />
+  <Router basename={process.env.PUBLIC_URL}>
+    <Route path="/" component={App} />
+    <Route exact path="/rhtaylor" component={Rhtaylor}
   </Router>,
   document.getElementById('root')
 );
