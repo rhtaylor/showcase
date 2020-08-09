@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 
 export default class Rhtaylor extends Component{
-    render(){
+    render(){ 
+        debugger
         return(
             <div>
                 <h1>Randall Taylor</h1>
