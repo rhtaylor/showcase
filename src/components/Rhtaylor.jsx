@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import SocialLinks from './SocialLinks'
 export default class Rhtaylor extends Component{
     render(){ 
         debugger
         return(
             <div>
+               
                 <h1>Randall Taylor</h1> 
                 <span><a href="https://medium.com/@software_for_humanity">Blog</a></span> 
                 <p></p>
