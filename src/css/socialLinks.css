@@ -3,4 +3,10 @@
 } 
 a:visited{
     color: gray; 
+} 
+a:active{
+    color: rgb(106, 255, 106)
+} 
+a{
+    color: #61dafb;
 }
