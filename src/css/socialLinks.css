@@ -1,9 +1,7 @@
 .fab{
     font-size: 60px;
 } 
-a:visited{
-    color: gray; 
-} 
+
 a:active{
     color: rgb(106, 255, 106)
 } 
@@ -15,9 +13,7 @@ a{
   a {
     color: lightblue;
   } 
-  a:visited{
-      color: rgb(59, 250, 59)
-  } 
+  
   a:active{
       color: pink; 
   }
