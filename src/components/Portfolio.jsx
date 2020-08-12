@@ -5,7 +5,7 @@ export default class Portfolio extends Component{
         return(<div>
             <div> 
             <h1>PatientsHub</h1> 
-                <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank"><i className="fab fa-github-square"></i></a>
+                <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank"><i className="fab fa-github"></i></a>
             <p>React-Redux Front-End Rails-API Back-End application.</p>
             <p>Application designed for Healthcare Providers.</p>
             <p>Allows Providers to Chart on their Patients</p> 
