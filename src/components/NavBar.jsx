@@ -41,7 +41,15 @@ export default class NavBar extends Component{
                 activeStyle={{
                     background: 'darkblue'
                 }}
-            >Portfolio</NavLink>
+            >Portfolio</NavLink> 
+                <NavLink
+                    to="/Resume"
+                    exact
+                    style={link}
+                    activeStyle={{
+                        background: 'darkblue'
+                    }}
+                >Resume</NavLink> 
         </div>)
     }
 }
