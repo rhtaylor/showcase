@@ -1,14 +1,8 @@
 import React, {Component} from 'react'
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom' 
- 
-const link = {
-    width: '100px',
-    padding: '12px',
-    margin: '0 6px 6px',
-    background: 'blue',
-    textDecoration: 'none',
-    color: 'white',
-} 
+import '../css/socialLinks.css' 
+
+
 
 export default class NavBar extends Component{
     
@@ -20,35 +14,27 @@ export default class NavBar extends Component{
                 /* set exact so it knows to only set activeStyle when route is deeply equal to link */
                 exact
                 /* add styling to Navlink */
-                style={link}
+                className="link"
                 /* add prop for activeStyle */
-                activeStyle={{
-                    background: 'darkblue'
-                }}
+               
             >Home</NavLink>
             <NavLink
                 to="/Rhtaylor"
                 exact
-                style={link}
-                activeStyle={{
-                    background: 'darkblue'
-                }}
+                className="link"
+                
             >About Author</NavLink>
             <NavLink
                 to="/Portfolio"
                 exact
-                style={link}
-                activeStyle={{
-                    background: 'darkblue'
-                }}
+                className="link"
+               
             >Portfolio</NavLink> 
                 <NavLink
                     to="/Resume"
                     exact
-                    style={link}
-                    activeStyle={{
-                        background: 'darkblue'
-                    }}
+                    className="link"
+                    
                 >Resume</NavLink> 
         </div>)
     }
