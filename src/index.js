@@ -5,16 +5,20 @@ import App from './App';
 import Rhtaylor from './components/Rhtaylor' 
 import Portfolio from './components/Portfolio' 
 import Resume from './components/Resume'
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter as Router, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <HashRouter basename={process.env.PUBLIC_URL} getUserConfirmation={(message, callback) => {
+    // this is the default behavior
+    const allowTransition = window.confirm(message);
+    callback(allowTransition);
+  }}>
     <Route path="/" component={App} />
     <Route exact path="/Rhtaylor" render={(...routerProps)=> <Rhtaylor {...routerProps} />} />
     <Route exact path="/Portfolio" render={(...routerProps) => <Portfolio {...routerProps} />} />
     <Route exact path="/Resume" render={(...routerProps) => <Resume {...routerProps}/>} />
-  </Router>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
