@@ -29,7 +29,7 @@ export default class NavBar extends Component{
                 exact
                 className="link"
                
-            >Portfolio</NavLink> 
+            >Projects</NavLink> 
                 <NavLink
                     to="/Resume"
                     exact
