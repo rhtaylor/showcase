@@ -1,0 +1,9 @@
+.portfolio{
+display: flex; 
+align-content: center;
+}
+
+span{
+    display: flex;
+    align-content: center;
+}

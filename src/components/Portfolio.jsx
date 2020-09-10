@@ -1,21 +1,32 @@
 import React, { Component } from 'react'
-
+import forest from '../css/forest.jpg'
+import portfolio from '../css/portfolio.css' 
+import patients_hub from '../css/patients_hub.png'
 export default class Portfolio extends Component{
     render(){
-        return(<div>
+        return(
+            <div className="portfolio"> 
             <div> 
-            <h1>PatientsHub</h1> 
-                <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank"><i className="fab fa-github"></i></a>
-            <p>React-Redux Front-End Rails-API Back-End application.</p>
-            <p>Application designed for Healthcare Providers.</p>
+            <h1>PatientsHub </h1> 
+                <span className="span_space"><a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank"><i className="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/watch?v=JfEsV0Wla7w&t=3s" target="_blank"><img width="138px" height="80px" src={patients_hub}></img></a>
+                </span>
+            <p>Application designed for Healthcare Providers to make charting easier</p>
+            <p>React-Redux Front-End || Rails-API Back-End application</p>
             <p>Allows Providers to Chart on their Patients</p> 
             </div> 
             <div>
-            <h1>Boiling Forest</h1>  
-                <a href="https://github.com/rhtaylor/tempGradientRailsJsonAPIJS" target="_blank"><i className="fab fa-github"></i></a>
-                <p>Boiling Forest utilizes a third party API openweathermap to pull weather data, process that data, and then calculate the rate of global cooling.</p>
-                <p>Boiling Forest is an application designed to track global warming. Greenhouse gas is produced by CO2 from human activities. This causes radiation from the sun to be trapped in the atmosphere. This radiation creates thermal energy or heat. When the sun sets it can no longer heat the earth pointed at it. The earth then starts to cool as the heat radiates out into space. Global Warming is a complex multifaceted phenomenon. One facet is this added layer of greenhouse gas. If this extra greenhouse gas is causing this then over time the rate of cooling will decrease over time.</p>
+            <div>
+            <h1>BoilingForest</h1>
+                <span className="span_space"><a href="https://github.com/rhtaylor/tempGradientRailsJsonAPIJS" target="_blank"><i className="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/watch?v=3RqLMTvG2Tk" target="_blank"><img height="80px" src={forest}></img></a>
+                </span>
+                <p>A proof of Global Warming attributed to green house gas</p>
+                <p>Utilizes a third party API openweathermap for real data</p>
+                <p>JavaScript Front-End || Ruby on Rails Back-End</p>
+                <p>Calculates rate of cooling from afternoon to temp past midnight</p>
             </div>
+        </div>
         </div>)
     }
 }
