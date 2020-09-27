@@ -1,0 +1,7 @@
+div{
+    display: table;
+    align-items: right;
+} 
+p{ display: inherit;
+    
+}
