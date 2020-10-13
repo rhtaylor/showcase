@@ -11,13 +11,13 @@ class SoftwareDev extends Component{
         <p> Active Record, Bootstrap, CRUD API, CSS, ES6, Github, HTML, JavaScript, JQuery, JSON, MVC, PostgreSQL, Rails, React, Redux, Rest API,  Ruby, SCSS, SQL, SQLite, Sinatra </p>
         <p>________________________________________________________________________________________________________________________________________________________________________________</p>
         <h3>TECHNICAL PROJECTS</h3>
-            <h4>PatientsHub -  Github <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank">Front-End</a> | <a href="https://github.com/rhtaylor/PatientsHub" target="blank">Back-End</a></h4>
+            <h4>PatientsHub -  Github <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank">Front-End</a> | <a href="https://github.com/rhtaylor/PatientsHub" target="_blank">Back-End</a></h4>
             <p>An app that allows healthcare providers to virtually chart on their patients.</p>
             <ul><li>Selected Bcrypt for secured password creation/validation/authentication/login.</li>
                 <li>Utilized PostgreSQL database to achieve data persistence.</li>
                 <li>Wrote React-Redux front-end and Rails back-end allowing seamless dataflow for users.</li>
                 <li>Incorporated Rails API for table relationships to organize data based on associations.</li></ul>
-            <h4>Boiling Forest - Github <a href="https://github.com/rhtaylor/tempGradientRailsJsonAPIJS/tree/master/modules/front" target="blank">Front-End</a> | <a href="https://github.com/rhtaylor/tempGradientRailsJsonAPIJS" target="blank">Back-End</a></h4>
+            <h4>Boiling Forest - Github <a href="https://github.com/rhtaylor/tempGradientRailsJsonAPIJS/tree/master/modules/front" target="_blank">Front-End</a> | <a href="https://github.com/rhtaylor/tempGradientRailsJsonAPIJS" target="_blank">Back-End</a></h4>
             <p>As a proof of Global Warming an application that tracks rate of global cooling after sunset.</p>
             <ul><li>Centralizes real weather stations API data in JSON format to track actual global warming.</li>
                 <li>Calculates temperature rate changes of area cooling past sunset over time as a proof of global warming.</li>
