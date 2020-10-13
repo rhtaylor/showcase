@@ -11,7 +11,7 @@ class SoftwareDev extends Component{
         <p> Active Record, Bootstrap, CRUD API, CSS, ES6, Github, HTML, JavaScript, JQuery, JSON, MVC, PostgreSQL, Rails, React, Redux, Rest API,  Ruby, SCSS, SQL, SQLite, Sinatra </p>
         <p>________________________________________________________________________________________________________________________________________________________________________________</p>
         <h3>TECHNICAL PROJECTS</h3>
-            <h4>PatientsHub -  Github <a href="https://github.com/rhtaylor/PatientsHubClient" target="blank">Front-End</a> | <a href="https://github.com/rhtaylor/PatientsHub" target="blank">Back-End</a></h4>
+            <h4>PatientsHub -  Github <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank">Front-End</a> | <a href="https://github.com/rhtaylor/PatientsHub" target="blank">Back-End</a></h4>
             <p>An app that allows healthcare providers to virtually chart on their patients.</p>
             <ul><li>Selected Bcrypt for secured password creation/validation/authentication/login.</li>
                 <li>Utilized PostgreSQL database to achieve data persistence.</li>
