@@ -6,7 +6,7 @@ export default class SocialLinks extends Component{
             <div>
                 <div> 
                     <br/> 
-                    <a href="https://medium.com/@software_for_humanity" target="_blank"><i className="fab fa-medium"></i></a>
+                    <a href="https://software-for-humanity.medium.com/" target="_blank"><i className="fab fa-medium"></i></a>
                     <a href="https://www.linkedin.com/in/randallhtaylor/" target="_blank"><i className="fab fa-linkedin"></i></a>
                     <a href="https://github.com/rhtaylor" target="_blank"><i className="fab fa-github-square"></i></a>
 

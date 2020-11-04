@@ -1,6 +1,8 @@
 import React from 'react'; 
 import { Component } from 'react';
-
+import Pre from './Pre'
+import Rhtaylor from './Rhtaylor'; 
+//import '../css/flash.css'
 export default class FlashComponent extends Component{ 
     constructor(props) {
         super(props);
@@ -28,7 +30,7 @@ componentWillUnmount() {
     } 
 
     render(){
-        return(<>
+        return (<>
             <div style={{"display" : "box"}}>
                 <pre>
                     <p style={ {"display" : `${this.state.visible}` }}><i><b>WELCOME</b></i></p>
@@ -44,6 +46,10 @@ componentWillUnmount() {
                     <p style={{ "display": `${this.state.visible}` }}><i><b>AND ABILITIES</b></i></p>
 
                 </pre>
+         
+        
+                {/* <Pre display={this.state.visible} />
+                <Rhtaylor display={this.state.visible} /> */}
         </div> 
         </>
         )

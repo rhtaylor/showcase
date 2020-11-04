@@ -9,7 +9,7 @@ export default class Rhtaylor extends Component{
                
                 <h1><img height="80px" src={avatar} alt="Randall Taylor"/>Randall Taylor</h1>
 
-                <span><a href="https://medium.com/@software_for_humanity" target="_blank"><i className="fab fa-medium"></i></a>
+                <span><a href="https://software-for-humanity.medium.com/" target="_blank"><i className="fab fa-medium"></i></a>
 </span> 
                 <p>We all have trials and tribulations. I just see my hardships as a fire to forge myself within harder, stronger, and smarter. I have a science degree from the University of Arizona in Physiology with minors in Biochemistry and Business Administration.  After working within Emergency Medical Services as a 911 response EMT I learned to implement High Reliability Organization and teamwork to achieve the best outcomes for the sick and injured. EMS was the beginning of my nascent professional career.</p>  
                 <p>Later I moved into Behavioral Health, worked as a BHT, and Case Manager. I was largely unfulfilled in these roles as they had little opportunity to really make differences in people's lives.</p> 

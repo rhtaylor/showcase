@@ -4,11 +4,12 @@ import React from 'react';
 class SoftwareDev extends Component{
     render(){
     return(<div>
-        <h3>SOFTWARE DEVELOPER</h3>
-        <p>Full stack software developer experienced in Ruby on Rails, JavaScript, and React. I have passion for solving problems and building applications that make the world a better place; I embrace the future with the software and the applications I create. Possess strong skills in writing software programs, debugging errors, learning new computer languages, and also creativity, emotional intelligence, and being enthusiastic about coding.</p>
+        <h3>SOFTWARE ENGINEER</h3>
+        <p>Full stack software engineer experienced in Ruby on Rails, JavaScript, React, and Redux. Previous employment in EMS and behavioral health with a new focus on writing stellar software programs. I have passion for solving problems and building functional applications. Possess strong skills in learning new computer languages, creativity, emotional intelligence, delivering clean code in a timely manner, and effective communication.  
+</p>
         <p>________________________________________________________________________________________________________________________________________________________________________________</p>
         <h3>TECHNICAL SKILLS</h3>
-        <p> Active Record, Bootstrap, CRUD API, CSS, ES6, Github, HTML, JavaScript, JQuery, JSON, MVC, PostgreSQL, Rails, React, Redux, Rest API,  Ruby, SCSS, SQL, SQLite, Sinatra </p>
+        <p> Active Record, Bootstrap, CRUD API, CSS, ES6, Github, HTML, JavaScript, JQuery, JSON, MVC, PostgreSQL, React, Redux, Rest API,  Ruby, Ruby On Rails, SCSS, SQL, SQLite, Sinatra </p>
         <p>________________________________________________________________________________________________________________________________________________________________________________</p>
         <h3>TECHNICAL PROJECTS</h3>
             <h4>PatientsHub -  Github <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank">Front-End</a> | <a href="https://github.com/rhtaylor/PatientsHub" target="_blank">Back-End</a></h4>

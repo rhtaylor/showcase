@@ -1,7 +1,8 @@
 div{
-    display: table;
-    align-items: right;
+    display: flex;
+    align-items: center;
 } 
-p{ display: inherit;
+p{ display: flex; 
+    align-self: center;
     
 }
