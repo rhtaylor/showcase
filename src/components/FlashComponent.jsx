@@ -21,7 +21,7 @@ export default class FlashComponent extends Component{
      setInter(){ 
         /* function to push urls to display different views based on the delay 
         passed down with props with this.props.delay */ 
-        if(this.i > 3){ this.i = 0; }
+        if(this.i >= 3){ this.i = 0; }
          const urls = ['/Rhtaylor', '/Portfolio', '/Resume']
          this.props.history.push(urls[this.i]) 
          ++this.i
