@@ -19,14 +19,13 @@ export default class FlashComponent extends Component{
        
         } 
      setInter(){ 
-         if(this.i > 3){ this.i = 0; }
-         
-        const urls = ['/Rhtaylor', '/Portfolio', '/Resume']
-        //this.setState({ url: '/Rhtaylor' }) 
-        this.props.history.push(urls[this.i]) 
+        /* function to push urls to display different views based on the delay 
+        passed down with props with this.props.delay */ 
+        if(this.i > 3){ this.i = 0; }
+         const urls = ['/Rhtaylor', '/Portfolio', '/Resume']
+         this.props.history.push(urls[this.i]) 
          ++this.i
         this._inter = setInterval((iArg)=>this.setInter(iArg), this.props.delay * 4)
-           
         } 
     setTimer() {
         // hide after `delay` milliseconds  
@@ -39,7 +38,8 @@ export default class FlashComponent extends Component{
     
     
 componentWillUnmount() {
-        clearTimeout(this._timer);
+        clearTimeout(this._timer); 
+        clearInterval(this._inter); 
     } 
 
     render(){
