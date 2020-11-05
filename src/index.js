@@ -5,7 +5,7 @@ import App from './App';
 import Rhtaylor from './components/Rhtaylor' 
 import Portfolio from './components/Portfolio' 
 import Resume from './components/Resume'
-import { HashRouter, BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter as Router, Route} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

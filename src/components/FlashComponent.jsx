@@ -7,23 +7,36 @@ export default class FlashComponent extends Component{
     constructor(props) {
         super(props);
         this.state = { visible: "box", 
-        second: 'none', 
-        } 
-    }
-     
-    componentDidMount() {
-        this.setTimer();
-       
+            url: '/Rhtaylor'
+       }; 
+       this.i = 0;  
         
-    }
- 
+        
+    }  
+    
+    componentDidMount() {
+        this.setTimer(); 
+       
+        } 
+     setInter(){ 
+         if(this.i > 3){ this.i = 0; }
+         
+        const urls = ['/Rhtaylor', '/Portfolio', '/Resume']
+        //this.setState({ url: '/Rhtaylor' }) 
+        this.props.history.push(urls[this.i]) 
+         ++this.i
+        this._inter = setInterval((iArg)=>this.setInter(iArg), this.props.delay * 4)
+           
+        } 
     setTimer() {
-        // hide after `delay` milliseconds
-        this._timer = setTimeout(function () {
-            this.setState({ visible: "none" });
+        // hide after `delay` milliseconds  
+        this.setInter(); 
+        this._timer = setTimeout(function () { 
+        this.setState({ visible: "none" });
             this._timer = null;
         }.bind(this), this.props.delay);
     } 
+    
     
 componentWillUnmount() {
         clearTimeout(this._timer);

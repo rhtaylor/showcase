@@ -11,7 +11,7 @@ export default class App extends Component {
       <header className="App-header">
         <NavBar /> 
         <SocialLinks /> 
-        <FlashComponent delay={7000} />
+        <FlashComponent history={this.props.history} delay={7000} />
       </header>
     </div>
   );
