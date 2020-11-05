@@ -24,7 +24,15 @@ class SoftwareDev extends Component{
                 <li>Calculates temperature rate changes of area cooling past sunset over time as a proof of global warming.</li>
                 <li>Personalizes the application by enabling users to check for a weather station via city and then add/track it from their database.</li></ul>
             <p>________________________________________________________________________________________________________________________________________________________________________________</p>
-
+        <h3>EXPERIENCE</h3>
+        <h4>Jr. Software Engineer  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://nourimeals.com/" target="_blank">Nouri, Inc</a> 08/2020 - present</h4> 
+            <li>Under mentorship of senior Software Engineer and Team Lead Software Engineer follow instructions for creating React UI</li> 
+            <li>Style UI with SCSS to make page more elegant and professional</li>
+            <li>Implement a mobile first design philosophy where UI looks amazing on all viewports</li> 
+        <h4>Behavioral Health Tech  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://quailrunbehavioral.com/" target="_blank">Quail Run</a> 10/2018 - present</h4>
+        <li>Ensure health and safety of Adolescent Patients</li>
+        <li>Respond to patients in crisis tailored to specific needs to a calm state</li>
+        <li>Teach classes on mental health to increase patients knowledge and awareness on maintaining their own mental health</li>
 
         </div>)
     
