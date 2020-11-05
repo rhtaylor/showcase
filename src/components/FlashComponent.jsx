@@ -7,7 +7,7 @@ export default class FlashComponent extends Component{
     constructor(props) {
         super(props);
         this.state = { visible: "box", 
-            url: '/Rhtaylor'
+            i: 0,
        }; 
        this.i = 0;  
         
@@ -21,10 +21,10 @@ export default class FlashComponent extends Component{
      setInter(){ 
         /* function to push urls to display different views based on the delay 
         passed down with props with this.props.delay */ 
-        if(this.i >= 3){ this.i = 0; }
+        if(this.state.i >= 3){ this.setState({i : 0 } )}
          const urls = ['/Rhtaylor', '/Portfolio', '/Resume']
-         this.props.history.push(urls[this.i]) 
-         ++this.i
+         this.props.history.push(urls[this.state.i]) 
+         ++this.state.i
         this._inter = setInterval(()=>this.setInter(), this.props.delay * 4)
         } 
     setTimer() {
