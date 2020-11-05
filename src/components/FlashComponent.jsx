@@ -25,7 +25,7 @@ export default class FlashComponent extends Component{
          const urls = ['/Rhtaylor', '/Portfolio', '/Resume']
          this.props.history.push(urls[this.i]) 
          ++this.i
-        this._inter = setInterval((iArg)=>this.setInter(iArg), this.props.delay * 4)
+        this._inter = setInterval(()=>this.setInter(), this.props.delay * 4)
         } 
     setTimer() {
         // hide after `delay` milliseconds  
@@ -39,7 +39,7 @@ export default class FlashComponent extends Component{
     
 componentWillUnmount() {
         clearTimeout(this._timer); 
-        clearInterval(this._inter); 
+         
     } 
 
     render(){
