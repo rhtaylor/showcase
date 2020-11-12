@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import forest from '../css/forest.jpg'
+import forest from '../css/forest.jpg' 
+import forestGif from '../css/littleGif.jpg'
 import portfolio from '../css/portfolio.css' 
 import patients_hub from '../css/patients_hub.png'
 export default class Portfolio extends Component{
@@ -20,6 +21,7 @@ export default class Portfolio extends Component{
             <h1>BoilingForest</h1>
                 <span className="span_space"><a href="https://github.com/rhtaylor/tempGradientRailsJsonAPIJS" target="_blank"><i className="fab fa-github"></i></a>
                 <a href="_https://www.youtube.com/watch?v=3RqLMTvG2Tk" target="_blank"><img height="80px" src={forest}></img></a>
+                            <a href="https://boiling-forest-global-warming.herokuapp.com/" target="_blank"><img height="80px" src={forestGif}></img></a>
                 </span>
                 <p>A proof of Global Warming attributed to green house gas</p>
                 <p>Utilizes a third party API openweathermap for real data</p>
