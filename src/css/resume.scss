@@ -1,18 +1,14 @@
 .resume{ 
     @media only screen and (max-width: 360px){
-        display: flex;  
+        
+        display: block;
+        flex-wrap: wrap;  
         align-content: flex-start;
         width: 100%; 
         padding-left: 10px; 
-        margin-left: 10vh;
+        margin-left: 1vh;
     
 
       
-    div ~ h1 { 
-      border-left-width: 10px;  
-    }  
-    div ~ p { 
-      border-left-width: 10px;  
-    } 
-}
+    }
 }
