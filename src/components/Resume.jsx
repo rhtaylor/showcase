@@ -8,7 +8,7 @@ export default class Resume extends Component{
     render(){
         return(<div className="resume">  
             <h1><img height="80px" src={avatar} alt="Randall Taylor" />Randall Taylor</h1> 
-            <p>Phoenix, AZ | 602-999-7756 | <a href="rhtaylorgithub@gmail.com" target="blank">rhtaylorgithub@gmail.com</a></p> 
+            <p>Phoenix, AZ | 602-999-7756 | <a href="mailto:rhtaylorgithub@gmail.com" target="_blank">rhtaylorgithub@gmail.com</a></p> 
             <SoftwareDev />
             </div>)
     }
