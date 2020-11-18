@@ -1,5 +1,5 @@
 import { Component } from "react"
-
+import '../css/Resume.css'
 import React from 'react'; 
 class SoftwareDev extends Component{
     render(){

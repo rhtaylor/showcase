@@ -3,7 +3,7 @@ import { Component } from 'react'
 import '../css/Resume.css'  
 import SoftwareDev from './SoftwareDev'
 import avatar from '../css/avatar.jpg'
-
+import '../css/resume.scss'
 export default class Resume extends Component{
     render(){
         return(<div className="resume">  
