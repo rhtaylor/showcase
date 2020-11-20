@@ -1,5 +1,8 @@
 import { Component } from "react"
-import '../css/Resume.css'
+import '../css/Resume.css' 
+import forest from '../css/forest.jpg'
+import forestGif from '../css/littleGif.jpg'
+//import portfolio from '../css/portfolio.css'
 import React from 'react'; 
 class SoftwareDev extends Component{
     render(){
@@ -19,6 +22,9 @@ class SoftwareDev extends Component{
                 <li>Wrote React-Redux front-end and Rails back-end allowing seamless dataflow for users.</li>
                 <li>Incorporated Rails API for table relationships to organize data based on associations.</li></ul>
             <h4>Boiling Forest - Github <a href="https://github.com/rhtaylor/tempGradientRailsJsonAPIJS/tree/master/modules/front" target="_blank">Front-End</a> | <a href="https://github.com/rhtaylor/tempGradientRailsJsonAPIJS" target="_blank">Back-End</a></h4>
+        <a href="_https://www.youtube.com/watch?v=3RqLMTvG2Tk" target="_blank"><img height="80px" src={forest}></img></a>
+        <a href="https://boiling-forest-global-warming.herokuapp.com/" target="_blank"><img height="80px" src={forestGif}></img></a>
+
             <p>As a proof of Global Warming an application that tracks rate of global cooling after sunset.</p>
             <ul><li>Centralizes real weather stations API data in JSON format to track actual global warming.</li>
                 <li>Calculates temperature rate changes of area cooling past sunset over time as a proof of global warming.</li>
