@@ -1,5 +1,6 @@
 import React, { Component } from 'react' 
-import avatar from '../css/avatar.jpg'
+import avatar from '../css/avatar.jpg' 
+import '../css/styling.scss'
 import SocialLinks from './SocialLinks'
 export default class Rhtaylor extends Component{
     render(){ 
