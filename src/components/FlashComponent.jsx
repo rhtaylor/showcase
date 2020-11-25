@@ -29,7 +29,7 @@ export default class FlashComponent extends Component{
             }
          this.props.history.push(urls[this.i]) 
          ++this.i
-        this._inter = setInterval(()=>this.setInter(), this.props.delay)
+        this._inter = setInterval(()=>this.setInter(), this.props.delay/2)
         } 
     setTimer() {
         // hide after `delay` milliseconds  
