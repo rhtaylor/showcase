@@ -48,7 +48,7 @@ componentWillUnmount() {
         return (<>
             <div style={{"display" : "box"}}>
                 <pre>
-                    <p style={ {"display" : `${this.state.visible}` }}><i><b>WELCOME</b></i></p>
+                    <p style={ {"display" : `${this.state.visible}`, "color": "white" }}><i><b>WELCOME</b></i></p>
                     <p style={{ "display": `${this.state.visible}` }}><i><b>TO</b></i></p>
                     <p style={{ "display": `${this.state.visible}` }}><i><b>MY PORTFOLIO</b></i></p>
                     <p style={{ "display": `${this.state.visible}` }}><i><b>SITE</b></i></p>
