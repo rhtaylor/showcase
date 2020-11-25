@@ -8,7 +8,7 @@ export default class NavBar extends Component{
     
     render(){
         return  (
-            <div>
+            <div className="NavBar" style={{"opacity": this.props.opacity}}>
             <NavLink
                 to="/"
                 /* set exact so it knows to only set activeStyle when route is deeply equal to link */
