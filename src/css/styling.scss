@@ -1,7 +1,7 @@
 div{ 
  
     img {
-  border-radius: 50%;
+  border-radius: 1;
 }
  
 pre{ 
@@ -13,5 +13,9 @@ p{
     margin: 10px;
     color: rgb(54, 50, 34)
 } 
+
+a + img{
+       border-radius: 1;
+   } 
 
 }

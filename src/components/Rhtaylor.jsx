@@ -8,7 +8,7 @@ export default class Rhtaylor extends Component{
         return(
             <div>
                
-                <h1><img height="80px" src={avatar} alt="Randall Taylor"/>Randall Taylor</h1>
+                <h1><img height="80px" src={avatar} id="avatar" alt="Randall Taylor"/>Randall Taylor</h1>
 
                 <span><a href="https://software-for-humanity.medium.com/" target="_blank"><i className="fab fa-medium"></i></a>
 </span> 
