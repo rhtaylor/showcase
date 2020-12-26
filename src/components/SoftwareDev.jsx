@@ -12,7 +12,7 @@ class SoftwareDev extends Component{
 </p>
         <p>________________________________________________________________________________________________________________________________________________________________________________</p>
         <h3>TECHNICAL SKILLS</h3>
-        <p> Active Record, Bootstrap, CRUD API, CSS, ES6, Github, HTML, JavaScript, JQuery, JSON, MVC, PostgreSQL, React, Redux, Rest API,  Ruby, Ruby On Rails, SCSS, SQL, SQLite, Sinatra </p>
+        <p> Active Record, Bootstrap, CRUD API, CSS, ES6, Github, HTML, JavaScript, JQuery, JSON, MVC, Numpy, PostgreSQL, Python, React, Redux, Rest API,  Ruby, Ruby On Rails, SCSS, SQL, SQLite, Sinatra </p>
         <p>________________________________________________________________________________________________________________________________________________________________________________</p>
         <h3>TECHNICAL PROJECTS</h3>
             <h4>PatientsHub -  Github <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank">Front-End</a> | <a href="https://github.com/rhtaylor/PatientsHub" target="_blank">Back-End</a></h4>
