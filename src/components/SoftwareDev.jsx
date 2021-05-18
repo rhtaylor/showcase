@@ -13,7 +13,7 @@ class SoftwareDev extends Component{
             this.color_changer = this.color_changer.bind(this)
         }
     color_changer(anArray){
-        return anArray.map((e, i) => <span className={ i%3 == 0 ? "zero" : i%3 == 1 ? "one" : "two"}>&nbsp;{e}&nbsp;</span>)
+        return anArray.map((e, i) => <span className={ Math.floor(Math.random() * 3) == 0 ? "zero" : i%3 == 1 ? "one" : "two"}>&nbsp;{e}&nbsp;</span>)
     }
     render(){
         return (<div className="resume_2">
