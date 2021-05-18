@@ -6,7 +6,7 @@ import forest from '../css/forest.jpg'
 import forestGif from '../css/littleGif.jpg'
 //import portfolio from '../css/portfolio.css' 
 const BIO = 'Full Stack Software Engineer experienced in Ruby on Rails, JavaScript, React, Redux, and Python. I have a passion for solving problems and building functional applications. Possess strong skills in programming, development, creativity, emotional intelligence, delivering clean code in a timely manner, design, teamwork, and effective verbal and written communication.'
-const SKILL = ["Active Record", "Bootstrap", "CRUD API", "CSS", "ES6", "Github", "HTML", "JavaScript", "JQuery", "JSON", "MVC", "Numpy", "PostgreSQL", "Python", "React", "Redux", "REST API",  "Ruby", "Ruby On Rails", "SCSS", "SQL", "SQLite", "Sinatra"]
+const SKILL = ["Active Record", "Bootstrap", "CRUD API", "CSS", "ES6", "Github", "HTML", "JavaScript", "Jupyter Notebook", "JQuery", "JSON", "Machine Learning","MVC", "Numpy", "PostgreSQL", "Pandas","Python", "React", "Redux", "REST API",  "Ruby", "Ruby On Rails", "SCSS", "SQL", "SQLite", "Sinatra", "Tensorflow"]
 class SoftwareDev extends Component{
         constructor(props){
             super(props)
@@ -39,8 +39,14 @@ class SoftwareDev extends Component{
                 <li>Calculates temperature rate changes of area cooling past sunset over time as a proof of global warming.</li>
                 <li>Personalizes the application by enabling users to check for a weather station via city and then add/track it from their database.</li></ul>
             
-        <h3>EXPERIENCE</h3>
-        <h4>Jr. Software Engineer  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://nourimeals.com/" target="_blank">Nouri, Inc</a> 08/2020 - present</h4> 
+        <h3>EXPERIENCE</h3> 
+        <h4>Software Developer/Webmaster-Contractor, PetSafeKennels, Phoenix, AZ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.petsafekennels.com/" target="_blank">Pet-Safe-Kennels</a> 01/2021 - present</h4>
+            <li>Design full stack web application for business</li>
+            <li>Style React frontend UI with SCSS to make page more elegant and professional</li>
+            <li>Implement a mobile first design philosophy where UI looks amazing on all viewports</li>
+            <li>CD/CI process to design and implement new features</li> 
+            <li>Maintain website and hosting issues</li>
+         <h4>Jr. Software Engineer  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://nourimeals.com/" target="_blank">Nouri, Inc</a> 08/2020 - present</h4> 
             <li>Under mentorship of senior Software Engineer and Team Lead Software Engineer follow instructions for creating React UI</li> 
             <li>Style UI with SCSS to make page more elegant and professional</li>
             <li>Implement a mobile first design philosophy where UI looks amazing on all viewports</li> 
