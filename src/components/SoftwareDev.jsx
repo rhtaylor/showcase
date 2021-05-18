@@ -1,18 +1,27 @@
+import React from 'react';
 import { Component } from "react"
-import '../css/Resume.css' 
+import '../css/Resume.css'  
+import '../css/resume.scss'
 import forest from '../css/forest.jpg'
 import forestGif from '../css/littleGif.jpg'
-//import portfolio from '../css/portfolio.css'
-import React from 'react'; 
+//import portfolio from '../css/portfolio.css' 
+const BIO = 'Full Stack Software Engineer experienced in Ruby on Rails, JavaScript, React, Redux, and Python. I have a passion for solving problems and building functional applications. Possess strong skills in programming, development, creativity, emotional intelligence, delivering clean code in a timely manner, design, teamwork, and effective verbal and written communication.'
+const SKILL = ["Active Record", "Bootstrap", "CRUD API", "CSS", "ES6", "Github", "HTML", "JavaScript", "JQuery", "JSON", "MVC", "Numpy", "PostgreSQL", "Python", "React", "Redux", "REST API",  "Ruby", "Ruby On Rails", "SCSS", "SQL", "SQLite", "Sinatra"]
 class SoftwareDev extends Component{
+        constructor(props){
+            super(props)
+            this.color_changer = this.color_changer.bind(this)
+        }
+    color_changer(anArray){
+        return anArray.map((e, i) => <span className={ i%3 == 0 ? "zero" : i%3 == 1 ? "one" : "two"}>&nbsp;{e}&nbsp;</span>)
+    }
     render(){
     return(<div>
         <h3>SOFTWARE ENGINEER</h3>
-        <p>Full stack software engineer experienced in Ruby on Rails, JavaScript, React, and Redux. Previous employment in EMS and behavioral health with a new focus on writing stellar software programs. I have passion for solving problems and building functional applications. Possess strong skills in learning new computer languages, creativity, emotional intelligence, delivering clean code in a timely manner, and effective communication.  
-</p>
+        <p>{BIO}</p>
         <p>________________________________________________________________________________________________________________________________________________________________________________</p>
         <h3>TECHNICAL SKILLS</h3>
-        <p> Active Record, Bootstrap, CRUD API, CSS, ES6, Github, HTML, JavaScript, JQuery, JSON, MVC, Numpy, PostgreSQL, Python, React, Redux, Rest API,  Ruby, Ruby On Rails, SCSS, SQL, SQLite, Sinatra </p>
+        <div id="flex">{this.color_changer(SKILL)}</div> 
         <p>________________________________________________________________________________________________________________________________________________________________________________</p>
         <h3>TECHNICAL PROJECTS</h3>
             <h4>PatientsHub -  Github <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank">Front-End</a> | <a href="https://github.com/rhtaylor/PatientsHub" target="_blank">Back-End</a></h4>

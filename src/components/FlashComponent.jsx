@@ -24,7 +24,7 @@ export default class FlashComponent extends Component{
          const urls = ['/Rhtaylor', '/Portfolio', '/Resume']
         if(this.i >= 3){  
             clearInterval(this._inter);  
-            debugger
+            
             this.props.changeOpacity();
             }
          this.props.history.push(urls[this.i]) 

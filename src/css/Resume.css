@@ -6,9 +6,10 @@
     margin: 10px;
 }
 
-p{
+p{  margin-left: 5%;
     width: 75%;
 } 
 #avatar{
     border-radius: 50%;
-}
+} 
+
