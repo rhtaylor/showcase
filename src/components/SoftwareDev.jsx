@@ -16,13 +16,13 @@ class SoftwareDev extends Component{
         return anArray.map((e, i) => <span className={ i%3 == 0 ? "zero" : i%3 == 1 ? "one" : "two"}>&nbsp;{e}&nbsp;</span>)
     }
     render(){
-    return(<div>
+        return (<div className="resume_2">
         <h3>SOFTWARE ENGINEER</h3>
         <p>{BIO}</p>
-        <p>________________________________________________________________________________________________________________________________________________________________________________</p>
+        
         <h3>TECHNICAL SKILLS</h3>
         <div id="flex">{this.color_changer(SKILL)}</div> 
-        <p>________________________________________________________________________________________________________________________________________________________________________________</p>
+        
         <h3>TECHNICAL PROJECTS</h3>
             <h4>PatientsHub -  Github <a href="https://github.com/rhtaylor/PatientsHubClient" target="_blank">Front-End</a> | <a href="https://github.com/rhtaylor/PatientsHub" target="_blank">Back-End</a></h4>
             <p>An app that allows healthcare providers to virtually chart on their patients.</p>
@@ -38,7 +38,7 @@ class SoftwareDev extends Component{
             <ul><li>Centralizes real weather stations API data in JSON format to track actual global warming.</li>
                 <li>Calculates temperature rate changes of area cooling past sunset over time as a proof of global warming.</li>
                 <li>Personalizes the application by enabling users to check for a weather station via city and then add/track it from their database.</li></ul>
-            <p>________________________________________________________________________________________________________________________________________________________________________________</p>
+            
         <h3>EXPERIENCE</h3>
         <h4>Jr. Software Engineer  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://nourimeals.com/" target="_blank">Nouri, Inc</a> 08/2020 - present</h4> 
             <li>Under mentorship of senior Software Engineer and Team Lead Software Engineer follow instructions for creating React UI</li> 

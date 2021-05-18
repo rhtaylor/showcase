@@ -27,11 +27,21 @@
     flex-wrap: wrap;  
 }
 @media only screen and (min-width: 360px) and (max-width: 1040px){  
-    h3{
-        padding-left: 15%;
+    .resume{
+        width: clamp(300px, 360px, 400px);
+    }
+    h3{ 
+        font-weight: bolder;
+        padding-left: 5%;
     }
     p{
         padding-left: 10%;
     } 
     
+ 
+.resume_2{
+padding-left: 10px; 
+margin-left: 5px;
+} 
+
 }
